@@ -1,0 +1,35 @@
+{{ with .Site.Data.team }}
+  {{ if .enable }}
+  <section class="site-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+          </div>
+          <p class="light black">
+                Tu nous as déjà vus puisque nous t’avons distribué ce livret, nous sommes l’équipe du WEI. Nous sommes des étudiants de l’ECL chargés de l’intégration à Centrale Lyon. Pendant ta semaine d’écrits, nous nous occupons de la restauration, de l’organisation des lieux de vie, de l’information, de la signalétique sur le campus, et nous serons disponibles au maximum pour toi lors de ces 4 jours.  Tu pourras nous reconnaître à nos polos bleus que nous arborerons tout le temps ! <br>
+                Nous avons installé des lieux de détente, de restauration et des activités sur le campus dont tu pourras profiter tout au long de la semaine. <br>
+                N’hésite surtout pas à venir nous voir si tu as des questions, ou bien si tu veux juste parler ;)
+            </p>
+        </div>
+        {{ range .members }}
+        <div class="col-lg-4 col-md-6" id="div-member">
+          <div class="site-team-member">
+            <div class="site-team-member-image" id="team_image">
+              <img width="100%" src="{{ .image | absURL }}" alt="L'équipe du WEI">
+            </div>
+            <div class="site-team-member-content">
+              <h3>{{ .name }}</h3>
+              <p>{{ .designation }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

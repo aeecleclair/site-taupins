@@ -1,0 +1,37 @@
+{{ with .Site.Data.counter }}
+  {{ if .enable }}
+  <section class="site-counter" id="counter">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2 class="text-white">{{ .heading }}</h2>
+          </div>
+          <div class="container">
+             <div class="row">
+                 <div class="col-sm">
+                  <img src="{{ .img }}" alt="">
+                  <br><br>
+                  <h6>{{ .legend }}</h6>
+              </div>
+              <div class="col-lg">
+                 <br>
+                  <p class="black">
+                    Bonjour à toutes et à tous, 
+                  </p>
+                  <p class="black light">
+                    Bienvenue sur notre beau et grand campus international où se mêlent formation et recherche, au cœur des grand enjeux d'un monde en perpétuel mouvement. L'École Centrale de Lyon est fière de vous recevoir pour les épreuves de votre concours. Toute l'Ecole est mobilisée et nos élèves sont heureux de vous accueillir avec l'énergie et la joie qui les caractérisent. 
+                  </p>
+
+                  <p class="black">
+                    Je vous souhaite un bon concours ! Au plaisir de vous retrouver, je l'espère, en septembre.
+                  </p>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

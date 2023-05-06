@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<section class="site-about-header">
+  <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+           <br><br>
+            <h1 class="site-cta-title">Se repérer sur le campus</h1>
+          </div>
+          <p class="light black">
+                Afin de te repérer, voilà un plan du campus. Trois endroits sont importants pour toi : </p>
+          <ul id="places">
+              <li class="light black">Le parking, lieu d’arrivée des bus.</li>
+              <li class="light black">Les bâtiments W1, W1bis et le gymnase, où tu vas passer tes écrits.</li>
+              <li class="light black">Le M16, où sont situés le foyer et le RU, donc la quasi- totalité des lieux de restauration et d’activités.</li>
+          </ul>
+          <p class="black">
+              Petite astuce : repère-toi grâce au terrain de foot !
+          </p>     
+          
+          <img width="100%" src="{{ "images/plan.png" | absURL }}" alt="Plan du campus">
+              
+            <br><br>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+{{ end }}

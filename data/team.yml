@@ -1,0 +1,60 @@
+enable  : true
+title   : Notre équipe
+members  :
+  - image       : images/team/lea-serval.jpg
+    name        : LÉA SERVAL (DEL RÉ)
+    designation : Prez
+    
+  - image       : images/team/paul-hoareau.jpg
+    name        : PAUL HOAREAU
+    designation : SG
+    
+    
+  - image       : images/team/lucie-boulanger.jpg
+    name        : LUCIE BOULANGER (SAYA)
+    designation : Trez
+    
+    
+  - image       : images/team/baptiste-galand.jpg
+    name        : BAPTISTE GALAND (BLUE)
+    designation : VP Com
+
+
+  - image       : images/team/raphael-alapetite.jpg
+    name        : RAPHAËL ALAPETITE (SMETZ)
+    designation : VP Event
+
+
+  - image       : images/team/alexandre-anjolras.jpg
+    name        : ALEXANDRE ANJOLRAS
+    designation : VP Site
+
+
+  - image       : images/team/helene-rabain.jpg
+    name        : HÉLÈNE RABAIN (KORA)
+    designation : VP Soirée
+
+
+  - image       : images/team/yacine-benyahia.jpg
+    name        : YACINE BENYAHIA (HAZE)
+    designation : VP Sponsor
+    
+    
+  - image       : images/team/philomene-carrel.jpg
+    name        : PHILOMÈNE CARREL (BLEIX)
+    designation : VP Log - Respo Taupins
+    
+    
+  - image       : images/team/clement-guiot.jpg
+    name        : CLÉMENT GUIOT (NAVY)
+    designation : VP Sponsor
+    
+    
+  - image       : images/team/lucas-legall.jpg
+    name        : LUCAS LE GALL (TAK)
+    designation : VP Sponsor
+    
+    
+  - image       : images/team/lucie-drapier.jpg
+    name        : LUCIE DRAPIER (NÉA)
+    designation : VP Log / Site
