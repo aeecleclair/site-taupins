@@ -1,4 +1,4 @@
-baseURL       = "https://taupins.myecl.fr/"
+baseURL       = "/"
 languageCode  = "fr-fr"
 title         = "Semaine Taupin | On the WEIve"
 theme         = "roxo-hugo"
