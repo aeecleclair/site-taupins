@@ -51,4 +51,4 @@ summarylength = 25
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "Bienvenue"
-    title1              = "Bonjour et bienvenue pour cette semaine d’écrits du concours Centrale-Supélec sur le campus de l’Ecole Centrale de Lyon ! Tu trouveras sur ce site toutes les infos qui peuvent t’être utiles au cours de ces 4 jours intenses (nutrition, orientation, détente, contacts importants...). Après 2 (voire 3) ans intensifs, tu es dans la dernière ligne droite, alors souffle un bon coup, aie confiance en toi, et bonne chance pour tes écrits !"
+    title1              = "Bonjour et bienvenue pour cette semaine d’écrits du concours Centrale-Supélec sur le campus de l’École Centrale de Lyon ! Tu trouveras sur ce site toutes les infos qui peuvent t’être utiles au cours de ces 4 jours intenses (nutrition, orientation, détente, contacts importants...). Après 2 (voire 3) ans intensifs, tu es dans la dernière ligne droite, alors souffle un bon coup, aie confiance en toi, et bonne chance pour tes écrits !"
